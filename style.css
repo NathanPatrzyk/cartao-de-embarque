@@ -1,0 +1,16 @@
+section {
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+.top {
+    --mask: radial-gradient(12px at 12px bottom, transparent 95%, black) -12px;
+}
+
+.middle {
+    --mask: radial-gradient(12px at 12px 12px, transparent 95%, black) -12px -12px;
+}
+
+.bottom {
+    --mask: radial-gradient(12px at 12px top, transparent 95%, black) -12px;
+}
